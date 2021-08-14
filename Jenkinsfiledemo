@@ -3,7 +3,7 @@ agent any
 stages {
 stage("git checkout1") {
 steps {
-Jenkinsfiledemo
+git credentialsId: 'snsrdevops', url: 'https://github.com/snsrdevops/game-of-life.git'
 }
 }
 }
