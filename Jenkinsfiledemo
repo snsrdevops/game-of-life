@@ -3,8 +3,7 @@ agent any
 stages {
 stage("git checkout1") {
 steps {
-git credentialsId: 'snsrdevops', url: 'https://github.com/snsrdevops/game-of-life.git'
-}
+echo "Hello"
 }
 }
 }
