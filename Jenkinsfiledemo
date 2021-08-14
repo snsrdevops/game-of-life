@@ -8,7 +8,7 @@ echo "Hello"
 }
 stage("maven build") {
 steps {
-cd C:\Program Files (x86)\Jenkins\workspace\declarative_demo
+cd "C:\Program Files (x86)\Jenkins\workspace\declarative_demo"
 sh "mvn clean package"
 }
 }
